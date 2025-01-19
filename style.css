@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 body
 {
     margin: 0;
@@ -19,12 +20,11 @@ body
 {
     width: 100vw;
     height: 10vh;
-    background-color: aqua;
     margin-top: 3vh;
 }
 .text
 {
-    color: red;
+    color: rgb(177, 0, 0);
     text-decoration: underline;
     font-weight: bolder;
     text-decoration-thickness: 3px;
@@ -60,6 +60,12 @@ img
     justify-content: center;
     align-items: center;
     font-weight: bold;
+    box-shadow: 2px 2px 10px rgb(177, 0, 0);
+    text-shadow: 2px 2px 10px gray;
+    font-family: Roboto;
+}
+.top:hover{
+    background-color: rgb(253, 67, 67);
 }
 a:visited
 {
@@ -68,4 +74,108 @@ a:visited
 a
 {
     font-size: 25px;
+}
+#a
+{
+    background-color: aqua;
+}
+#b
+{
+    background-color: blue;
+}
+#c
+{
+    background-color: pink;
+}
+#d
+{
+    background-color: yellow;
+}
+#e
+{
+    background-color: yellowgreen;
+}
+#f
+{
+    background-color: gainsboro;
+}
+#g
+{
+    background-color: purple;
+}
+#h
+{
+    background-color: gold;
+}
+#i
+{
+    background-color: green;
+}
+#j
+{
+    background-color: teal;
+}
+#k
+{
+    background-color: olive;
+}
+#l
+{
+    background-color: orange;
+}
+#m
+{
+    background-color: orangered;
+}
+#n
+{
+    background-color: sienna;
+}
+#o
+{
+    background-color: seagreen;
+}
+#p
+{
+    background-color: sandybrown;
+}
+#q
+{
+    background-color: darkcyan;
+}
+#r
+{
+    background-color: dodgerblue;
+}
+#s
+{
+    background-color: lawngreen;
+}
+#t
+{
+    background-color: chocolate;
+}
+#u
+{
+    background-color: violet;
+}
+#v
+{
+    background-color: aquamarine;
+}
+#w
+{
+    background-color: mediumseagreen;
+}
+#x
+{
+    background-color: indigo;
+}
+#y
+{
+    background-color: orchid;
+}
+#z
+{
+    background-color: gray;
 }
